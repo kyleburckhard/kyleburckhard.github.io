@@ -119,6 +119,168 @@ textarea {
   vertical-align: top;
 }
 
+/* line 1, ../sass/social.scss */
+.container .social-icon {
+  display: inline-block;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+  *margin-right: 0;
+  margin-right: 6px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background-position: 0 0;
+}
+
+/* line 12, ../sass/social.scss */
+.container .social-icon.twitter {
+  background-image: url("../images/social/24px/twitter.png");
+}
+
+/* line 15, ../sass/social.scss */
+.container .social-icon.linkedin {
+  background-image: url("../images/social/24px/linkedin.png");
+}
+
+/* line 18, ../sass/social.scss */
+.container .social-icon.forrst {
+  background-image: url("../images/social/24px/forrst.png");
+}
+
+/* line 21, ../sass/social.scss */
+.container .social-icon.fivehundred {
+  background-image: url("../images/social/24px/500px.png");
+}
+
+/* line 24, ../sass/social.scss */
+.container .social-icon.flickr {
+  background-image: url("../images/social/24px/flickr.png");
+}
+
+/* line 27, ../sass/social.scss */
+.container .social-icon.email {
+  background-image: url("../images/social/24px/email.png");
+}
+
+/* line 30, ../sass/social.scss */
+.container .social-icon.github {
+  background-image: url("../images/social/24px/github.png");
+}
+
+/* line 33, ../sass/social.scss */
+.container .social-icon.quora {
+  background-image: url("../images/social/24px/quora.png");
+}
+
+/* line 36, ../sass/social.scss */
+.container .nav-pills {
+  font-size: 14px;
+}
+
+/* line 40, ../sass/social.scss */
+.container .nav-pills > .active > a,
+.container .nav-pills > .active > a:hover {
+  background: #fe57a1;
+  text-shadow: none;
+}
+
+/* line 44, ../sass/social.scss */
+.container #main {
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 49, ../sass/social.scss */
+.container .navbar-inner .important {
+  color: #fe57a1;
+}
+
+/* line 52, ../sass/social.scss */
+.container .navbar-inner .dropdown-menu {
+  background: #fff;
+}
+
+/* line 55, ../sass/social.scss */
+.container .navbar-inner .dropdown-menu li > a {
+  color: #444;
+  border-left: 3px solid transparent;
+  text-shadow: none;
+}
+
+/* line 62, ../sass/social.scss */
+.container .navbar-inner .dropdown-menu li > a:hover,
+.container .navbar-inner .dropdown-menu .active > a,
+.container .navbar-inner .dropdown-menu .active > a:hover {
+  border-left: 3px solid #93131b;
+}
+
+/* line 66, ../sass/social.scss */
+.container #summary {
+  font-size: 16px;
+}
+
+/* line 69, ../sass/social.scss */
+.container .experience-table .position {
+  margin-bottom: 0px;
+  line-height: 1.2em;
+}
+
+/* line 73, ../sass/social.scss */
+.container .experience-table .date {
+  color: #888888;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* line 79, ../sass/social.scss */
+.container .experience-table small {
+  display: block;
+  color: #93131b;
+  font-size: 14px;
+}
+
+/* line 84, ../sass/social.scss */
+.container .experience-table td:first-child {
+  width: 33%;
+}
+
+/* line 87, ../sass/social.scss */
+.container .listing .entry {
+  margin-bottom: 40px;
+}
+
+/* line 90, ../sass/social.scss */
+.container .listing .entry .heading {
+  margin-bottom: 0px;
+  line-height: 1.1em;
+}
+
+/* line 94, ../sass/social.scss */
+.container .listing .entry .date {
+  color: #888888;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 101, ../sass/social.scss */
+.container .interests-list li {
+  list-style-type: none;
+  background: url(../images/icon-award.png) no-repeat 0px 0px;
+  padding-left: 45px;
+  min-height: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 108, ../sass/social.scss */
+.container .section {
+  padding-top: 40px;
+  margin-top: 100px;
+}
+
 /* line 23, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .clearfix {
   *zoom: 1;
@@ -5131,59 +5293,6 @@ a.label:hover, a.badge:hover {
 /* line 21, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets/bootstrap/_utilities.scss */
 .invisible {
   visibility: hidden;
-}
-
-/* line 1, ../sass/social.scss */
-.container .social-icon {
-  display: inline-block;
-  vertical-align: text-top;
-  background-repeat: no-repeat;
-  *margin-right: 0;
-  margin-right: 6px;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  background-position: 0 0;
-}
-
-/* line 12, ../sass/social.scss */
-.container .social-icon.twitter {
-  background-image: url("../images/social/24px/twitter.png");
-}
-
-/* line 15, ../sass/social.scss */
-.container .social-icon.linkedin {
-  background-image: url("../images/social/24px/linkedin.png");
-}
-
-/* line 18, ../sass/social.scss */
-.container .social-icon.forrst {
-  background-image: url("../images/social/24px/forrst.png");
-}
-
-/* line 21, ../sass/social.scss */
-.container .social-icon.fivehundred {
-  background-image: url("../images/social/24px/500px.png");
-}
-
-/* line 24, ../sass/social.scss */
-.container .social-icon.flickr {
-  background-image: url("../images/social/24px/flickr.png");
-}
-
-/* line 27, ../sass/social.scss */
-.container .social-icon.email {
-  background-image: url("../images/social/24px/email.png");
-}
-
-/* line 30, ../sass/social.scss */
-.container .social-icon.github {
-  background-image: url("../images/social/24px/github.png");
-}
-
-/* line 33, ../sass/social.scss */
-.container .social-icon.quora {
-  background-image: url("../images/social/24px/quora.png");
 }
 
 /* line 23, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
