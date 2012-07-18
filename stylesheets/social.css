@@ -1,0 +1,52 @@
+/* line 1, ../sass/social.scss */
+.container .social-icon {
+  display: inline-block;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+  *margin-right: 0;
+  margin-right: 6px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background-position: 0 0;
+}
+
+/* line 12, ../sass/social.scss */
+.container .social-icon.twitter {
+  background-image: url("../images/social/24px/twitter.png");
+}
+
+/* line 15, ../sass/social.scss */
+.container .social-icon.linkedin {
+  background-image: url("../images/social/24px/linkedin.png");
+}
+
+/* line 18, ../sass/social.scss */
+.container .social-icon.forrst {
+  background-image: url("../images/social/24px/forrst.png");
+}
+
+/* line 21, ../sass/social.scss */
+.container .social-icon.fivehundred {
+  background-image: url("../images/social/24px/500px.png");
+}
+
+/* line 24, ../sass/social.scss */
+.container .social-icon.flickr {
+  background-image: url("../images/social/24px/flickr.png");
+}
+
+/* line 27, ../sass/social.scss */
+.container .social-icon.email {
+  background-image: url("../images/social/24px/email.png");
+}
+
+/* line 30, ../sass/social.scss */
+.container .social-icon.github {
+  background-image: url("../images/social/24px/github.png");
+}
+
+/* line 33, ../sass/social.scss */
+.container .social-icon.quora {
+  background-image: url("../images/social/24px/quora.png");
+}
