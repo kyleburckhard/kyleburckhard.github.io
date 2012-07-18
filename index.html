@@ -17,14 +17,6 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
   
-  <!-- <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-responsive.css">
-  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css">
-  <link rel="stylesheet" href="css/responsive.css">
-   -->
-  
-  
   <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -35,7 +27,6 @@
   <script src="js/modernizr-2.5.3.min.js"></script>
   
 </head>
-<body id="top-section" data-spy="scroll" data-target="#topnav"  data-offset="70" >
 <body id="top" data-spy="scroll" data-target="#topnav"  data-offset="70" >
 
 
@@ -52,11 +43,6 @@
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#education">Education</a></li>
-						<li><a href="#interests">Interests</a></li>
-						<li><a href="#contact">Contact</a></li>
 					<span class="icon-bar"></span>
 				</a>
       
@@ -64,8 +50,13 @@
       			<div class="nav-collapse">
 					<!-- Main nav -->
 					<ul  class="nav">
-						<li class="active"><a href="#top-section">Top</a></li>
+						<li><a href="#top" class="active">Top</a></li>
 						<li><a href="#summary">Summary</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#interests">Interests</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul><!-- ENDS main nav -->
 				
 				
@@ -104,7 +95,6 @@
 	<!-- MAIN -->
 	<div id="main" role="main">
 	
-	
 		<!-- Hero -->
 		<div class="hero-unit">
 			<h1>Welcome, I am Kyle!</h1>
@@ -112,167 +102,156 @@
 		</div><!-- ENDS hero -->
 			
 		<!-- info -->
-		<section id="info-section" class="information" >
-			<div  class="page-header"><h1>Information <small>Learn everything about me</small></h1></div>
+		<div  class="page-header"><h1>Information <small>Learn everything about me</small></h1></div>
 		
-		
-			<ul id="information-tabs" class="nav nav-pills ">
-				<li><a href="#summary" data-toggle="tab">Summary</a></li>
-				<li><a href="#skills" data-toggle="tab">Skills</a></li>
-				<li><a href="#experience" data-toggle="tab">Experience</a></li>
-				<li><a href="#education" data-toggle="tab">Education</a></li>
-				<li><a href="#awards" data-toggle="tab">Awards</a></li>
-			</ul>
+			
+			<!-- Summary -->
+			<div id="summary">
+				<h2>Summary <small>What I am looking for</small></h2>
+				<p ><strong>Resume is a free template</strong> It's responsive, HTML 5 valid all of this in one single page. It's fully documented and you can use it with no attribution or credit back required for commercial and personal projects, redistribution is not allowed if you want to use it in a different way please contact me.</p>
+				
+				
+				<p>Thanks to <a href="http://www.thebeaststudio.com/" >Moe Pike</a> for sharing his work as placeholder images.</p> 
+				<p><strong>Some dummy text</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+				</p>
+			</div>
+			<!-- ENDS Summary -->
 			
 			
-			<!-- tab content -->
-			<div class="tab-content">
+			<!-- Skills -->
+			<div class="listing" id="skills">
+				<h2>Skills <small>What I am good at</small></h2>
 				
-				<!-- Summary -->
-				<div class="summary-section tab-pane active" id="summary">
-					<p ><strong>Resume is a free template</strong> It's responsive, HTML 5 valid all of this in one single page. It's fully documented and you can use it with no attribution or credit back required for commercial and personal projects, redistribution is not allowed if you want to use it in a different way please contact me.</p>
-					
-					
-					<p>Thanks to <a href="http://www.thebeaststudio.com/" >Moe Pike</a> for sharing his work as placeholder images.</p> 
-					<p><strong>Some dummy text</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-					</p>
-				</div><!-- ENDS Summary -->
-				
-				
-				<!-- Skills -->
-				<div class="tab-pane listing" id="skills">
-					
-					
-					<div class="entry">
-						<div class="clearfix">
-							<div class="rating p">
-								<i class="icon-star"></i>
-								<i class="icon-star"></i>
-								<i class="icon-star"></i>
-							</div>
-							<h3 class="heading pull-leasft">Web Design</h3>
-							
+				<div class="entry">
+					<div class="clearfix">
+						<div class="rating p">
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
 						</div>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+						<h3 class="heading pull-leasft">Web Design</h3>
+						
 					</div>
-					
-					<div class="entry">
-						<div class="clearfix">
-							<div class="rating p">
-								<i class="icon-star"></i>
-								<i class="icon-star"></i>
-								<i class="icon-star-empty"></i>
-							</div>
-							<h3 class="heading pull-leasft">Web Development</h3>
-							
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+				</div>
+				
+				<div class="entry">
+					<div class="clearfix">
+						<div class="rating p">
+							<i class="icon-star"></i>
+							<i class="icon-star"></i>
+							<i class="icon-star-empty"></i>
 						</div>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+						<h3 class="heading pull-leasft">Web Development</h3>
+						
 					</div>
-					
-					<div class="entry">
-						<div class="clearfix">
-							<div class="rating p">
-								<i class="icon-star"></i>
-								<i class="icon-star-empty"></i>
-								<i class="icon-star-empty"></i>
-							</div>
-							<h3 class="heading pull-leasft">Illustration</h3>
-							
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+				</div>
+				
+				<div class="entry">
+					<div class="clearfix">
+						<div class="rating p">
+							<i class="icon-star"></i>
+							<i class="icon-star-empty"></i>
+							<i class="icon-star-empty"></i>
 						</div>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+						<h3 class="heading pull-leasft">Illustration</h3>
+						
 					</div>
-					
-					
-				</div><!-- ENDS Skills -->
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+				</div>
 				
 				
-				<!-- Experience -->
-				<div class="tab-pane" id="experience">
-					<table class="table experience-table">
-					  
-					  <tbody>
-					    <tr>
-					      <td><h3 class="position" >Digital Media Director</h3> <span class="date"> Sep 2011 - Present</span><small>That Company</small></td>
-					      <td>
-					      	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
-					      	
-					      	</td>
-					    </tr>
-					    <tr>
-					      <td><h3 class="position">Chief Executive Officer</h3> <span class="date"> Oct 2000 - Sep 2011</span><small>Acme Toys</small></td>
-					      <td>
-					      	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
-					      	
-					      	</td>
-					    </tr>
-					    <tr>
-					      <td><h3 class="position">Media Engineer</h3> <span class="date"> Jan 1994 - Oct 2000</span><small>That Company</small></td>
-					      <td>
-					      	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
-					      	
-					      	</td>
-					    </tr>
+			</div><!-- ENDS Skills -->
+			
+			
+			<!-- Experience -->
+			<div id="experience">
+				<h2>Experience <small>Where I have worked and what I did there</small></h2>
+				<table class="table experience-table">
+				  
+				  <tbody>
+					<tr>
+					  <td><h3 class="position" >Digital Media Director</h3> <span class="date"> Sep 2011 - Present</span><small>That Company</small></td>
+					  <td>
+					    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
 					    
-					  </tbody>
-					</table>
-				</div><!-- ENDS Experience -->
+					    </td>
+					</tr>
+					<tr>
+					  <td><h3 class="position">Chief Executive Officer</h3> <span class="date"> Oct 2000 - Sep 2011</span><small>Acme Toys</small></td>
+					  <td>
+					    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+					    
+					    </td>
+					</tr>
+					<tr>
+					  <td><h3 class="position">Media Engineer</h3> <span class="date"> Jan 1994 - Oct 2000</span><small>That Company</small></td>
+					  <td>
+					    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+					    
+					    </td>
+					</tr>
+					
+				  </tbody>
+				</table>
+			</div><!-- ENDS Experience -->
+			
+			<!-- Education -->
+			<div class="listing" id="education">
+				<h2>Education <small></small></h2>
+				<div class="entry">
+					<h3 class="heading">University of Wollongong in Dubai</h3>
+					<span class="date">2011 – 2011</span>
+					<p>Major or Area of study: Communication Studies, Business Management, Human Resources, Business Law, Business Studies, Digital Production, Print Production, Computer Science</p>
+				</div>
 				
-				<!-- Education -->
-				<div class="tab-pane listing" id="education">
-					
-					<div class="entry">
-						<h3 class="heading">University of Wollongong in Dubai</h3>
-						<span class="date">2011 – 2011</span>
-						<p>Major or Area of study: Communication Studies, Business Management, Human Resources, Business Law, Business Studies, Digital Production, Print Production, Computer Science</p>
-					</div>
-					
-					<div class="entry">
-						<h3 class="heading">Helwan University</h3>
-						<span class="date">2004 – 2007</span>
-						<p>Completed executive training in Sales Motivation, CRM, Management and Sales</p>
-					</div>
-					
-					<div class="entry">
-						<h3 class="heading">Cambridge International School</h3>
-						<span class="date">1999- 2000</span>
-						<p>IGCSE, Commerce</p>
-					</div>
+				<div class="entry">
+					<h3 class="heading">Helwan University</h3>
+					<span class="date">2004 – 2007</span>
+					<p>Completed executive training in Sales Motivation, CRM, Management and Sales</p>
+				</div>
+				
+				<div class="entry">
+					<h3 class="heading">Cambridge International School</h3>
+					<span class="date">1999- 2000</span>
+					<p>IGCSE, Commerce</p>
+				</div>
 
-					
-					
-				</div><!-- ENDS Education -->
 				
-				<!-- Awards -->
-				<div class="tab-pane" id="awards">
-					
-				<ul class="awards-list">
-					<li>
-						<h3  class="heading">“Elite Author” at ThemeForest  </h3>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-						<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
-					</li>
-					
-					<li>
-						<h3  class="heading">“Elite Author” at ThemeForest  </h3>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-						<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
-					</li>
-					
-					<li>
-						<h3  class="heading">“Elite Author” at ThemeForest  </h3>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-						<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
-					</li>
-				</ul>
-					
-				</div><!-- ENDS Awards -->
 				
-			</div><!-- ENDS tab content -->
-		</section><!-- ENDS info -->
+			</div><!-- ENDS Education -->
+			
+			<!-- Interests -->
+			<div id="interests">
+				<h2>Interests <small>What I do outside the office</small></h2>
+				
+			<ul class="interests-list">
+				<li>
+					<h3  class="heading">“Elite Author” at ThemeForest  </h3>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+					<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
+				</li>
+				
+				<li>
+					<h3  class="heading">“Elite Author” at ThemeForest  </h3>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+					<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
+				</li>
+				
+				<li>
+					<h3  class="heading">“Elite Author” at ThemeForest  </h3>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+					<a class="btn" href="http://themeforest.net/user/ansimuz/portfolio?ref=ansimuz" >Link</a>
+				</li>
+			</ul>
+				
+			</div><!-- ENDS Awards -->
+			<!-- ENDS info -->
 		
 		
 		<!-- Contact -->
-		<section id="contact-section" >
+		<section id="contact" >
 			<div  class="page-header"><h1>Contact <small> Get in touch</small></h1></div>
 			
 			<div class="row">
@@ -313,11 +292,7 @@
   <script src="js/plugins.js"></script>
   <script src="js/bootstrap-dropdown.js"></script>
   <script src="js/bootstrap-scrollspy.js"></script>
-  <script src="js/bootstrap-tab.js"></script>
   <script src="js/bootstrap-collapse.js"></script>
-  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-  <script type="text/javascript" src="js/form-validation.js"></script>
-
   
   <script src="js/custom.js"></script>
   <!-- end scripts -->
