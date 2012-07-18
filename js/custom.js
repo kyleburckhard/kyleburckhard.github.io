@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 	
 	$('.dropdown-toggle').dropdown();
 	
-	$('#topnav').scrollspy();
+	$('#topbar').scrollspy();
 
 });
 
