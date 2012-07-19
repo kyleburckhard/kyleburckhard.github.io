@@ -3,11 +3,19 @@ require 'bootstrap-sass'
 
 
 # Set this to the root of your project when deployed:
-http_path = "/public/"
-css_dir = "public/stylesheets"
-sass_dir = "public/sass"
-images_dir = "public/images"
-javascripts_dir = "public/javascripts"
+http_path 				= "/"
+css_dir 					= "stylesheets"
+sass_dir 					= "sass"
+images_dir 				= "images"
+javascripts_dir 	= "javascripts"
+
+project_type     	= :stand_alone
+environment      	= :development
+output_style     	= :nested
+relative_assets  	= true
+disable_warnings 	= false
+line_comments    	= true
+preferred_syntax 	= :scss
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
