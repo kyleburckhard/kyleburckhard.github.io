@@ -71,7 +71,7 @@ body {
   .container .navbar-inner .dropdown-menu li > a:hover,
   .container .navbar-inner .dropdown-menu .navbar-inner .dropdown-menu .active > a,
   .container .navbar-inner .dropdown-menu .navbar-inner .dropdown-menu .active > a:hover {
-    border-left: 3px solid #C52B27; }
+    border-left: 3px solid #EF5521; }
 /* line 79, ../sass/custom.scss */
 .container #summary {
   font-size: 16px; }
@@ -88,7 +88,7 @@ body {
 /* line 93, ../sass/custom.scss */
 .container .experience-table small {
   display: block;
-  color: #C52B27;
+  color: #EF5521;
   font-size: 14px; }
 /* line 98, ../sass/custom.scss */
 .container .experience-table td:first-child {
@@ -124,8 +124,8 @@ body {
   padding-top: 10px; }
 /* line 136, ../sass/custom.scss */
 #skills dt {
-  color: #C52B27; }
+  color: #EF5521; }
 
 /* line 141, ../sass/custom.scss */
 .hero-unit p {
-  color: #C52B27; }
+  color: #EF5521; }
