@@ -32,7 +32,7 @@
 
 <div class="container">
 
-  <header>
+  <header class="no-print">
 
 	<!-- navbar -->
 	<div id="topnav" class="navbar navbar-fixed-top">
@@ -97,11 +97,11 @@
 	
 		<!-- Hero -->
 		<div class="hero-unit">
-  		<h2><small class="sup"> puts self.name</small></h2>
-			<h1> Kyle <span class="hidden-phone">Burckhard</span><br/></h1>
-			<h2><small class="sup"> puts self.tagline</small></h2>
+  		<h2 class="no-print"><small class="sup"> puts self.name</small></h2>
+			<h1> Kyle <span class="smaller">Burckhard</span><br/></h1>
+			<h2 class="no-print"><small class="sup"> puts self.tagline</small></h2>
 			<p>I love to automate and build solutions.</p>
-			<h2><small class="sup drop">puts self.resume</small></h2>
+			<h2 class="no-print"><small class="sup drop">puts self.resume</small></h2>
 		</div><!-- ENDS hero -->
 
 		<!-- Summary -->
@@ -159,7 +159,6 @@
 		<div class="section tags" id="experience">
 			<h2>Experience <small>Where I have worked and what I did there</small></h2>
 			<dl class="dl-horizontal">
-  			<hr>
   			<dt>
     			<h3 class="position">Developer Operations Engineer</h3>
     			<span class="date"> Oct 2010 - Present</span>
@@ -171,7 +170,6 @@
           <p>Worked with the development team to migrate them from SVN and Trac to Git and Github. This allowed for easier and cleaner hotfixes when issued arised and was the first major step to moving to continuos delivery.</p>
           <p>Added additional monitoring to production enviroment to give the development better metrics and alerts of issues.</p>
         </dd>
-        <hr>
   		  <dt>
     		  <h3 class="position">Data Operations, Contractor</h3>
     		  <span class="date"> Aug 2010 - Oct 2010 </span>
@@ -180,7 +178,6 @@
   		  <dd>
   		    <p>Joined the technology team to migrate list owner data from the MySQL based search system to one powered by Solr. Worked further with the development team to optimize the processing of list owner data, including automating much of the pre-processing that must be done to data.</p>  					
   		  </dd>
-  		  <hr>
   		  <dt>
     		  <h3 class="position">Systems Administrator / Developer</h3>
     		  <span class="date"> Mar 2001 - Dec 2009</span>
@@ -189,7 +186,6 @@
   		  <dd>
   		    <p>Worked to optimize the 24/7 system operations team that monitored approximately 80,000 alerts per month, sent from rough ~5000 Unix servers, hundreds of applications and databases. Worked as a systems administor building tools, documentation and troubleshooting processes after being a shift lead with the goal to reduce time to resolution and increase service availibity. Collaberated with members from application, system and database teams to document and transfer processes over to the operations team. </p>
   		  </dd>
-  		  <hr>
   		  <dt>
     		  <h3 class="position">Developer / Lab Technician</h3>
     		  <span class="date"> Jan 1998 - Mar 2001</span>
@@ -250,7 +246,7 @@
 			<div  class="page-header"><h1>Contact <small> Get in touch</small></h1></div>
 			
 			<div class="row">
-  			<div class="span8 hidden-phone">
+  			<div class="span8 hidden-phone no-print">
   				<iframe src="http://www.contactme.com/50064849b00a680002040860/embed" frameborder="0" scrolling="no" allowtransparency="true" style="height: 500px; width: 510px;"></iframe>
   			</div>
 			
@@ -259,7 +255,7 @@
 				<ul class="address-block unstyled">
 <!--         			<li class="address"><i class="icon-home"></i> Address line, city, state ZIP</li> -->
         			<li class="email"><i class="icon-envelope"></i><a href="mailto:kyle@vorpalcode.com"> kyle@vorpalcode.com</a></li>
-        			<li class="phone"><i class="icon-comment"></i> 425.318.1369</li>
+        			<li class="phone"><i class="icon-signal"></i> 425-318-1369</li>
         		</ul>
 			</div>
 			
