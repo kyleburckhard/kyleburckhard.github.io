@@ -154,16 +154,24 @@ body {
 }
 #experience {
   dl.dl-horizontal {
+    div {
+      display: table;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
     dt {
       width: 275px;
       text-align: left;
-      overflow: auto;
-      white-space: normal;
-      padding-top: 4px;
-      border-top: 1px solid #ccc;
+      # overflow: auto;
+      # white-space: normal;
+      # padding-top: 4px;
+      # border-top: 1px solid #ccc;
+      position: relative;
     }
     dd {
+      # padding-top: 10px;
       margin-left: 285px;
+      position: relative;
     }
     .date {
       color: #888888;

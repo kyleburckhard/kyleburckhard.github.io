@@ -4481,38 +4481,46 @@ body {
   font-size: 16px; }
 
 /* line 157, ../sass/custom.scss */
+#experience dl.dl-horizontal div {
+  display: table;
+  border-top: 1px solid #ccc;
+  padding-top: 10px; }
+/* line 162, ../sass/custom.scss */
 #experience dl.dl-horizontal dt {
   width: 275px;
   text-align: left;
-  overflow: auto;
-  white-space: normal;
-  padding-top: 4px;
-  border-top: 1px solid #ccc; }
-/* line 165, ../sass/custom.scss */
+  # overflow: auto;
+  # white-space: normal;
+  # padding-top: 4px;
+  # border-top: 1px solid #ccc;
+  position: relative; }
+/* line 171, ../sass/custom.scss */
 #experience dl.dl-horizontal dd {
-  margin-left: 285px; }
-/* line 168, ../sass/custom.scss */
+  # padding-top: 10px;
+  margin-left: 285px;
+  position: relative; }
+/* line 176, ../sass/custom.scss */
 #experience dl.dl-horizontal .date {
   color: #888888;
   font-size: 14px;
   display: block;
   margin-bottom: 6px; }
-/* line 174, ../sass/custom.scss */
+/* line 182, ../sass/custom.scss */
 #experience dl.dl-horizontal small {
   display: block;
   color: #EF5521;
   font-size: 14px; }
 @media (max-width: 767px) {
-  /* line 180, ../sass/custom.scss */
+  /* line 188, ../sass/custom.scss */
   #experience dl.dl-horizontal dt {
     float: none;
     clear: none;
     width: auto; }
-  /* line 185, ../sass/custom.scss */
+  /* line 193, ../sass/custom.scss */
   #experience dl.dl-horizontal dd {
     margin-left: 0px; } }
 
-/* line 192, ../sass/custom.scss */
+/* line 200, ../sass/custom.scss */
 #interests li {
   list-style-type: none;
   background: url(../images/icon-award.png) no-repeat 0px 0px;
