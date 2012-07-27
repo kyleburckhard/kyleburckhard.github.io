@@ -1,7 +1,23 @@
+@media print {
+  .no-print {
+      display:none;
+  }
+  .section {
+    padding-top:10px ! important;
+    margin-top: 10px ! important;
+  }
+  .hero-unit {
+    padding: 4px;
+  }
+  #skill p {
+    font-size: 80%;
+  }
+}
 body {
   font-family: "Lato", Helvetica, Arial, "sans-serif";
   h1, h2 {
     font-family: "Nova Mono", Helvetica, Arial, "sans-serif";
+    
   }
   #topnav,p {
     font-family: "Neue Helvetica", Helvetica, Arial, "sans-serif";
@@ -75,14 +91,79 @@ body {
       }
     }
   }
-
-   #summary {
-    font-size: 16px;
+}
+.hero-unit {
+  @media (max-width: 480px) { 
+    h1,h2 {
+      font-size: 1.8em;
+    }
+    h2 {
+      white-space: nowrap;
+    }
+    p {
+      font-size: 0.8em
+    }
   }
-  .experience-table {
-    .position {
-      margin-bottom: 0px;
-      line-height: 1.2em;
+  small {
+    position: relative;
+    left: -10px;
+    line-height: 0px;
+    bottom: -10px;
+    font-size: 70%;
+
+  }
+  .drop {
+    bottom: -50px;
+  }
+  p {
+    color: #EF5521;
+  }
+}
+
+.date {
+  color: #888888;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+.section {
+  padding-top: 40px;
+  margin-top: 100px;
+}
+    
+#skills {
+  dt,dd {
+    padding-top: 10px;
+  }
+  dt {
+    color: #EF5521;
+  }
+}
+.listing .entry {
+  margin-bottom: 40px;
+  
+  .heading {
+    margin-bottom: 0px;
+    line-height: 1.1em;
+    padding-top: 4px;
+    border-top: 1px solid #ccc;
+  }
+}
+#summary {
+  p { font-size: 16px; }
+}
+#experience {
+  dl.dl-horizontal {
+    dt {
+      width: 275px;
+      text-align: left;
+      overflow: auto;
+      white-space: normal;
+      padding-top: 4px;
+      border-top: 1px solid #ccc;
+    }
+    dd {
+      margin-left: 285px;
     }
     .date {
       color: #888888;
@@ -95,50 +176,25 @@ body {
       color: #EF5521;
       font-size: 14px;
     }
-    td:first-child {
-      width: 33%;
+    @media (max-width: 767px) {
+      dt {
+        float: none;
+        clear: none;
+        width: auto;
+      }
+      dd {
+        margin-left: 0px;
+      }    
     }
   }
-  .listing .entry {
+}
+#interests {
+  li {
+    list-style-type: none;
+    background: url(../images/icon-award.png) no-repeat 0px 0px;
+    padding-left: 45px;
+    min-height: 40px;
     margin-bottom: 40px;
-    
-    .heading {
-      margin-bottom: 0px;
-      line-height: 1.1em;
-    }
-    
-    .date {
-      color: #888888;
-      font-size: 14px;
-      display: block;
-      margin-bottom: 6px;
-      border-bottom: 1px solid #ccc;
-    }
-  }
-  .interests-list {
-    li {
-      list-style-type: none;
-      background: url(../images/icon-award.png) no-repeat 0px 0px;
-      padding-left: 45px;
-      min-height: 40px;
-      margin-bottom: 40px;
-    }
-  }
-  .section {
-    padding-top: 40px;
-    margin-top: 100px;
   }
 }
-#skills {
-  dt,dd {
-    padding-top: 10px;
-  }
-  dt {
-    color: #EF5521;
-  }
-}
-.hero-unit {
-  p {
-    color: #EF5521;
-  }
-}
+
