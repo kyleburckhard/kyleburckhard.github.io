@@ -162,16 +162,11 @@ body {
     dt {
       width: 275px;
       text-align: left;
-      # overflow: auto;
-      # white-space: normal;
-      # padding-top: 4px;
-      # border-top: 1px solid #ccc;
-      position: relative;
+      overflow: auto;
+      white-space: normal;
     }
     dd {
-      # padding-top: 10px;
       margin-left: 285px;
-      position: relative;
     }
     .date {
       color: #888888;
