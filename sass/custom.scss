@@ -12,6 +12,11 @@
   #skill p {
     font-size: 80%;
   }
+  #experience {
+    p {
+      font-size: 80%;
+    }
+  }
 }
 body {
   font-family: "Lato", Helvetica, Arial, "sans-serif";
@@ -127,8 +132,8 @@ body {
   margin-bottom: 6px;
 }
 .section {
-  padding-top: 40px;
-  margin-top: 100px;
+  padding-top: 60px;
+  margin-top: 14px0px;
 }
     
 #skills {
@@ -137,6 +142,17 @@ body {
   }
   dt {
     color: #EF5521;
+  }
+  @media (max-width: 767px) {
+    dt {
+      float: left;
+      width: 120px;
+      clear: left;
+      text-align: right;
+    }
+    dd {
+      margin-left: 130px;
+    }    
   }
 }
 .listing .entry {
