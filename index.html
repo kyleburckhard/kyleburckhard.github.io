@@ -15,10 +15,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href='http://fonts.googleapis.com/css?family=Lato:700|Nova+Mono' rel='stylesheet' type='text/css'>
-  
+
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-  <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" media="all" />
-  
+  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" media="all" />
+
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except this Modernizr build.
@@ -26,17 +26,17 @@
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/modernizr-2.5.3.min.js"></script>
   <script type="text/javascript">
-  
+
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-33771399-1']);
     _gaq.push(['_trackPageview']);
-  
+
     (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  
+
   </script>
 </head>
 <body id="top" data-spy="scroll" data-target="#topnav"  data-offset="30" >
@@ -50,7 +50,7 @@
 	<div id="topnav" class="navbar navbar-fixed-top hidden-phone">
 		<div class="navbar-inner">
 			<div class="container">
-				
+
 					<!-- Main nav -->
 					<ul  class="nav">
 						<li><a href="#top" class="active">Top</a></li>
@@ -61,8 +61,8 @@
 						<!-- <li><a href="#interests">Interests</a></li> -->
 						<li><a href="#contact">Contact</a></li>
 					</ul><!-- ENDS main nav -->
-				
-				
+
+
 					<!-- social -->
 					<ul class="nav pull-right ">
 						<li class="divider-vertical"></li>
@@ -80,87 +80,84 @@
 								<li><a href="http://www.linkedin.com/in/kyleburckhard"><i class="social-icon linkedin"></i> Linkedin</a></li>
 								<li><a href="https://forrst.com/people/kyleb"><i class="social-icon forrst"></i> forrst</a></li>
 								<li><a href="http://www.quora.com/Kyle-Burckhard"><i class="social-icon quora"></i> Quora</a></li>
-								<li><a href="http://500px.com/kyleb"><i class="social-icon fivehundred"></i> 500px</a></li>								
+								<li><a href="http://500px.com/kyleb"><i class="social-icon fivehundred"></i> 500px</a></li>
 								<li><a href="http://www.flickr.com/photos/talaris/"><i class="social-icon flickr"></i> flickr</a></li>
 							</ul>
 						</li>
 					</ul><!-- ENDS Social -->
-				
+
 
 			</div>
 		</div>
 	</div><!-- ENDS navbar -->
 
 	</header>
-	
-	
+
+
 	<!-- MAIN -->
 	<div id="main" role="main">
-	
+
 		<!-- Hero -->
 		<div class="hero-unit">
   		<h2 class="no-print"><small class="sup"> puts self.name</small></h2>
 			<h1> Kyle <span class="smaller">Burckhard</span><br/></h1>
 			<h2 class="no-print"><small class="sup"> puts self.tagline</small></h2>
-			<p>I love to automate and build solutions.</p>
+			<p class="no-print">I love to automate and build solutions.</p>
 	<!-- 		<h2 class="no-print"><small class="sup drop">puts self.resume</small></h2> -->
 		</div><!-- ENDS hero -->
-    <br>
+
 		<!-- Summary -->
 		<div class="section" id="summary">
-			<h2>Summary <small>What I am looking for</small></h2>
+			<h2>Summary <small>What I have accomplished</small></h2>
         <p>
-          I am looking for an opportunity to continue exploring what happens as development and operations integrate tighter together. 
-          To work in a small team focused on developing tools and processes to improve the efficiency of not just the products of a company but fellow employees of a company as well. 
+          I have spent my time at Marketfish working to bring automation and insight to out application and infrastructure, working directly with the development team in a modern DevOps model.
+          Together we have moved from small set co-located servers to a growing scalable infrastructure in the cloud.
+          Leveraged Chef to give us infrasctructure as code, allowing for fast but stable scaling.
+          Scaled the volume of data our application housed to over 10x it's original configuration and built new tools for processing larger volumes of data in an automated and efficient manor.
         </p>
-        <p>
-          I have spent the last two years working to bring automation and insight to a small but dedicated development team.
-          Together we have moved from small set co-located servers to a growing scalable infrastructure in the cloud. 
-          Worked on solving problems as the company scaled the volume of data it housed over 10x.  
-          Scaling out not just the storage and processing of the data but also automating it for additional efficiency.
-        </p>   		
 		</div>
 		<!-- ENDS Summary -->
-			<br>
 		<!-- Skills -->
 		<div class="listing section" id="skills">
 			<h2>Skills <small>What is in my toolbelt</small></h2>
 			<div class="tags">
   			<dl class="dl-horizontal">
   				<dt>Ruby</dt>
-  				<dd>ActiveRecord, Mongoid, EventMachine, Thor </dd>
+  				<dd>ActiveRecord / Sequel, Mongoid, EventMachine</dd>
 
   				<dt>Chef</dt>
   				<dd>Open Source Server, Custom Cookbooks, Cookbook Testing</dd>
-  				
+
+          <dt>Monitoring / Metrics</dt>
+          <dd>Sensu, Graphite, Nagios, BMC Patrol, NetCool, Cayabara</dd>
+
   				<dt>Frameworks</dt>
   				<dd>Rails, Sinatra, Pandrino, Octopress, Jekyll</dd>
 
           <dt>Systems</dt>
-  				<dd>Debian / Ubuntu, Solaris, HP-UX, OS-X, Windows Server</dd>
-  
+  				<dd>Ubuntu, Solaris, HP-UX, OS-X, Windows Server</dd>
+
   				<dt>Servers</dt>
-  				<dd>Unicorn, Mongrel / Mongrel Cluster, Apache, Jetty</dd>
-  
+  				<dd>Solr 4, Nginx, Apache, Jetty, Mongrel</dd>
+
   				<dt>Databases</dt>
   				<dd>Redis, MongoDB, PostgreSQL, MySql</dd>
-  				        
+
     			<dt>Web</dt>
     			<dd>HTML, Javascript / JQuery, ERB / HAML, SASS / CSS</dd>
 
   				<dt>Testing Tools</dt>
-  				<dd>Rspec, TestUnit, Cucumber, Guard, Spork </dd>
+  				<dd>Rspec, TestUnit, Cucumber, Guard, Spork</dd>
 
   				<dt>Build/CI Tools</dt>
-  				<dd>Rake, Jenkins, Maven</dd>
+  				<dd>Jenkins, Maven, Nexus, Rake, Thor</dd>
 
   				<dt>SCM Tools</dt>
   				<dd>Git, SVN</dd>
   		  </dl>
 			</div>
 		</div><!-- ENDS Skills -->
-			
-	<br>		
+
 		<!-- Experience -->
 		<div class="section tags" id="experience">
 			<h2>Experience <small>Where I have worked and what I did there</small></h2>
@@ -175,7 +172,7 @@
     			<p>Continued work from contract position to automate processing and loading. Worked on prototyping alternate methods of mapping and translating data to normalize it for presentation.</p>
           <p>Migrated servers from collocated hardware to EC2 instances as worked on scaling out data and search scaling. Then worked on move server deployments to Chef to ease building both production and staging instance, included writing a custom Chef cookbook to intelligently distributed Solr shards across 1 master / N slaves instances.</p>
           <p>Worked with the development team to migrate them from SVN and Trac to Git and Github. This allowed for easier and cleaner hot-fixes when issues arose and was the first major step to moving to continuos delivery.</p>
-          <p>Added additional monitoring to production environment to give the development better metrics and alerts of issues.</p>
+          <p>Built out monitoring for production environment to give the team better metrics and alerts of issues.</p>
         </dd>
         </div>
         <div>
@@ -185,14 +182,14 @@
     		  <p><small>Marketfish</small></p>
   		  </dt>
   		  <dd>
-  		    <p>Joined the technology team to migrate list owner data from the MySQL based search system to one powered by Solr. Worked further with the development team to optimize the processing of list owner data, including automating much of the pre-processing that must be done to data.</p>  					
+  		    <p>Joined the technology team to migrate list owner data from the MySQL based search system to one powered by Solr. Worked further with the development team to optimize the processing of list owner data, including automating much of the pre-processing that must be done to data.</p>
   		  </dd>
   		  </div>
   		  <div>
   		  <dt>
     		  <h3 class="position">Systems Administrator / Developer</h3>
     		  <span class="date"> Mar 2001 - Dec 2009</span>
-    		  <p><small>AT&T - Mobility Division</small></p>
+    		  <p><small>AT&amp;T - Mobility Division</small></p>
   		  </dt>
   		  <dd>
   		    <p>Worked to optimize the 24/7 system operations team that monitored approximately 80,000 alerts per month, sent from rough ~5000 Unix servers, hundreds of applications and databases. Worked as a systems administrator building tools, documentation and troubleshooting processes after being a shift lead with the goal to reduce time to resolution and increase service availability. Collaborated with members from application, system and database teams to document and transfer processes over to the operations team. </p>
@@ -219,51 +216,47 @@
 				<span class="date">Aug 2009 - Apr 2010</span>
 				<p>Completed a three quarter Ruby programming certification under the University's continuing education program.</p>
 			</div>
-			
+
 			<div class="entry">
 				<h3 class="heading">University of Washington</h3>
 				<span class="date">1998-2001</span>
 				<p>Studied Graphic Communications, Computer Science and Physics</p>
 			</div>
-			
+
 			<div class="entry">
 				<h3 class="heading">University of Washington</h3>
 				<span class="date">1997</span>
 				<p>Completed one quarter Networking with Unix class under the University's extension program.</p>
 			</div>
-
-			
-			
 		</div><!-- ENDS Education -->
 
 		<!-- Interests -->
 <!-- 		<div class="section" id="interests">
 			<h2>Interests <small>What I do outside the office</small></h2>
-			
+
 		<ul class="interests-list">
       <li>
 			  <h3  class="heading">“</h3>
 			  <p> </p>
 			</li>
-			
+
 			<li>
 				<h3  class="heading">“</h3>
 				<p> </p>
 			</li>
 		</ul>
-			
+
 		</div> --><!-- ENDS Interest -->
 
 		<!-- Contact -->
-		<section class="section" id="contact">
-			<div  class="page-header"><h1>Contact <small> Get in touch</small></h1></div>
-			
+		<section class="section no-print" id="contact ">
+			<div  class="page-header no-print"><h1>Contact <small> Get in touch</small></h1></div>
+
 			<div class="row">
   			<div class="span8 hidden-phone no-print">
   				<iframe src="http://www.contactme.com/50064849b00a680002040860/embed" frameborder="0" scrolling="no" allowtransparency="true" style="height: 500px; width: 510px;"></iframe>
   			</div>
-			
-			
+
 			<div class="span4">
 				<ul class="address-block unstyled">
 <!--         			<li class="address"><i class="icon-home"></i> Address line, city, state ZIP</li> -->
@@ -271,30 +264,25 @@
         			<li class="phone"><i class="icon-signal"></i> 425-318-1369</li>
         		</ul>
 			</div>
-			
+
 			</div>
 		</section><!-- ENDS Contact -->
 
 	</div><!-- ENDS MAIN -->
-	
-	
-	<footer>
-		<hr/>
-	</footer>
-  
+
 	</div>
 
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
   <script src="js/bootstrap-dropdown.js"></script>
   <script src="js/bootstrap-scrollspy.js"></script>
-  
+
   <script src="js/custom.js"></script>
   <!-- end scripts -->
 

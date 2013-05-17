@@ -1,13 +1,17 @@
 @media print {
   .no-print {
-      display:none;
+    display:none;
   }
   .section {
-    padding-top:10px ! important;
-    margin-top: 10px ! important;
+    padding-top:10px !important;
+    margin-top: 10px !important;
   }
   .hero-unit {
-    padding: 4px;
+    padding: 6px !important;
+    h1 {
+      font-size: 20px !important;
+    }
+    margin-bottom: 10px !important;
   }
   #skill p {
     font-size: 80%;
@@ -17,12 +21,13 @@
       font-size: 80%;
     }
   }
+
 }
 body {
   font-family: "Lato", Helvetica, Arial, "sans-serif";
   h1, h2 {
     font-family: "Nova Mono", Helvetica, Arial, "sans-serif";
-    
+
   }
   #topnav,p {
     font-family: "Neue Helvetica", Helvetica, Arial, "sans-serif";
@@ -83,7 +88,7 @@ body {
     }
     .dropdown-menu {
       background: #fff;
-      
+
       li > a {
         color: #444;
         border-left: 3px solid transparent;
@@ -98,7 +103,10 @@ body {
   }
 }
 .hero-unit {
-  @media (max-width: 480px) { 
+  @media screen {
+    font-size: 60px;
+  }
+  @media (max-width: 480px) {
     h1,h2 {
       font-size: 1.8em;
     }
@@ -123,6 +131,7 @@ body {
   p {
     color: #EF5521;
   }
+  padding: 30px;
 }
 
 .date {
@@ -135,7 +144,7 @@ body {
   padding-top: 60px;
   margin-top: 14px0px;
 }
-    
+
 #skills {
   dt,dd {
     padding-top: 10px;
@@ -152,12 +161,12 @@ body {
     }
     dd {
       margin-left: 130px;
-    }    
+    }
   }
 }
 .listing .entry {
   margin-bottom: 40px;
-  
+
   .heading {
     margin-bottom: 0px;
     line-height: 1.1em;
@@ -203,7 +212,7 @@ body {
       }
       dd {
         margin-left: 0px;
-      }    
+      }
     }
   }
 }

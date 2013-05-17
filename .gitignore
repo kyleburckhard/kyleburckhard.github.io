@@ -18,3 +18,4 @@ public
 .yardoc
 _yardoc
 doc/
+*.pdf
