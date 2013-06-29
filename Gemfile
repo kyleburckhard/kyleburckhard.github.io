@@ -1,5 +1,6 @@
 source "http://rubygems.org"
-gem "bootstrap-sass", '~> 2.0.4.0'
+
+gem "bootstrap-sass", '~> 2.3.2.0'
 gem "compass"
 gem "compass-validator"
 
@@ -12,3 +13,4 @@ gem "guard-livereload"
 gem "yajl-ruby"
 
 gem "rack"
+gem "rack-livereload"

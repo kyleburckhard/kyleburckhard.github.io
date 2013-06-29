@@ -17,6 +17,6 @@ require 'find'
 if Find.find(Dir.pwd).detect{|dir|dir=~/.+\.(css|js|html?|php|inc)$/}
   # https://github.com/guard/guard-livereload
   guard 'livereload' do
-	watch(%r{.+\.(css|js|html?|php|inc)$})
+  	watch(%r{.+\.(css|js|html?|php|inc)$})
   end
 end
