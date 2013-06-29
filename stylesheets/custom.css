@@ -101,113 +101,112 @@ body {
 /* line 105, ../sass/custom.scss */
 .hero-unit {
   padding: 30px; }
-  @media screen {
+  @media (max-width: 480px) {
     /* line 105, ../sass/custom.scss */
     .hero-unit {
-      font-size: 60px; } }
-  @media (max-width: 480px) {
-    /* line 110, ../sass/custom.scss */
-    .hero-unit h1, .hero-unit h2 {
-      font-size: 1.8em; }
-    /* line 113, ../sass/custom.scss */
-    .hero-unit h2 {
-      white-space: nowrap; }
-    /* line 116, ../sass/custom.scss */
-    .hero-unit p {
-      font-size: 0.8em; } }
-  /* line 120, ../sass/custom.scss */
+      font-size: 100%; }
+      /* line 108, ../sass/custom.scss */
+      .hero-unit h1, .hero-unit h2 {
+        font-size: 1.8em; }
+      /* line 111, ../sass/custom.scss */
+      .hero-unit h2 {
+        white-space: nowrap; }
+      /* line 114, ../sass/custom.scss */
+      .hero-unit p {
+        font-size: 0.8em; } }
+  /* line 118, ../sass/custom.scss */
   .hero-unit small {
     position: relative;
     left: -10px;
     line-height: 0px;
     bottom: -10px;
     font-size: 70%; }
-  /* line 128, ../sass/custom.scss */
+  /* line 126, ../sass/custom.scss */
   .hero-unit .drop {
     bottom: -50px; }
-  /* line 131, ../sass/custom.scss */
+  /* line 129, ../sass/custom.scss */
   .hero-unit p {
     color: #EF5521; }
 
-/* line 137, ../sass/custom.scss */
+/* line 135, ../sass/custom.scss */
 .date {
   color: #888888;
   font-size: 14px;
   display: block;
   margin-bottom: 6px; }
 
-/* line 143, ../sass/custom.scss */
+/* line 141, ../sass/custom.scss */
 .section {
   padding-top: 60px;
   margin-top: 14px0px; }
 
-/* line 149, ../sass/custom.scss */
+/* line 147, ../sass/custom.scss */
 #skills dt, #skills dd {
   padding-top: 10px; }
-/* line 152, ../sass/custom.scss */
+/* line 150, ../sass/custom.scss */
 #skills dt {
   color: #EF5521; }
 @media (max-width: 767px) {
-  /* line 156, ../sass/custom.scss */
+  /* line 154, ../sass/custom.scss */
   #skills dt {
     float: left;
     width: 120px;
     clear: left;
     text-align: right; }
-  /* line 162, ../sass/custom.scss */
+  /* line 160, ../sass/custom.scss */
   #skills dd {
     margin-left: 130px; } }
 
-/* line 167, ../sass/custom.scss */
+/* line 165, ../sass/custom.scss */
 .listing .entry {
   margin-bottom: 40px; }
-  /* line 170, ../sass/custom.scss */
+  /* line 168, ../sass/custom.scss */
   .listing .entry .heading {
     margin-bottom: 0px;
     line-height: 1.1em;
     padding-top: 4px;
     border-top: 1px solid #ccc; }
 
-/* line 178, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 #summary p {
   font-size: 16px; }
 
-/* line 182, ../sass/custom.scss */
+/* line 180, ../sass/custom.scss */
 #experience dl.dl-horizontal div {
   display: table;
   border-top: 1px solid #ccc;
   padding-top: 10px; }
-/* line 187, ../sass/custom.scss */
+/* line 185, ../sass/custom.scss */
 #experience dl.dl-horizontal dt {
   width: 275px;
   text-align: left;
   overflow: auto;
   white-space: normal; }
-/* line 193, ../sass/custom.scss */
+/* line 191, ../sass/custom.scss */
 #experience dl.dl-horizontal dd {
   margin-left: 285px; }
-/* line 196, ../sass/custom.scss */
+/* line 194, ../sass/custom.scss */
 #experience dl.dl-horizontal .date {
   color: #888888;
   font-size: 14px;
   display: block;
   margin-bottom: 6px; }
-/* line 202, ../sass/custom.scss */
+/* line 200, ../sass/custom.scss */
 #experience dl.dl-horizontal small {
   display: block;
   color: #EF5521;
   font-size: 14px; }
 @media (max-width: 767px) {
-  /* line 208, ../sass/custom.scss */
+  /* line 206, ../sass/custom.scss */
   #experience dl.dl-horizontal dt {
     float: none;
     clear: none;
     width: auto; }
-  /* line 213, ../sass/custom.scss */
+  /* line 211, ../sass/custom.scss */
   #experience dl.dl-horizontal dd {
     margin-left: 0px; } }
 
-/* line 220, ../sass/custom.scss */
+/* line 218, ../sass/custom.scss */
 #interests li {
   list-style-type: none;
   background: url(../images/icon-award.png) no-repeat 0px 0px;

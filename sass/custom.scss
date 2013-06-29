@@ -103,10 +103,8 @@ body {
   }
 }
 .hero-unit {
-  @media screen {
-    font-size: 60px;
-  }
   @media (max-width: 480px) {
+   font-size: 100%;
     h1,h2 {
       font-size: 1.8em;
     }
