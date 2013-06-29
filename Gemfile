@@ -10,3 +10,5 @@ gem "guard"
 gem "guard-compass"
 gem "guard-livereload"
 gem "yajl-ruby"
+
+gem "rack"
