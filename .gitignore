@@ -19,3 +19,7 @@ public
 _yardoc
 doc/
 *.pdf
+.DS_Store
+.ruby-gemset
+.ruby-version
+bin/
