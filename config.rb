@@ -1,6 +1,17 @@
 require 'bootstrap-sass'
 # Require any additional compass plugins here.
+sass_options = Hash.new
 
+# Enable Sass inspection directly from the browser.
+#
+# Chrome Canary support (Applies to Webkit Nightlies as well.):
+#   http://blog.q42.nl/post/35203391115/debug-sass-and-less-in-webkit-inspector-and-save-css-cha
+# Firefox Extension:
+#   https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug
+#
+# Set to true to enable. Enabling will disable `line_comments`.
+#
+sass_options[:debug_info] = false
 
 # Set this to the root of your project when deployed:
 http_path 				= "/"
