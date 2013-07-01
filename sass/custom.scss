@@ -2,26 +2,40 @@
   .no-print {
     display:none;
   }
-  .section {
-    padding-top:10px !important;
-    margin-top: 10px !important;
+  body div#main {
+    p {
+      font-size: 12px;
+    }
+
+    h2, h3 {
+      font-size: 16px;
+      margin: 0px;
+    }
+    small {
+      font-size: 12px;
+    }
+    div.tags {
+      font-size: 12px;
+
+      #dl-horizontal {
+        margin: 2px;
+      }
+      dt, dd {
+        padding-top: 1px;
+      }
+
+    }
+    div.section {
+      padding-top: 0px;
+    }
   }
   .hero-unit {
-    padding: 6px !important;
     h1 {
-      font-size: 20px !important;
+      font-size: 20px;
     }
-    margin-bottom: 10px !important;
+    margin-bottom: 2px;
+    padding: 4px;
   }
-  #skill p {
-    font-size: 80%;
-  }
-  #experience {
-    p {
-      font-size: 80%;
-    }
-  }
-
 }
 body {
   font-family: "Lato", Helvetica, Arial, "sans-serif";
@@ -172,9 +186,9 @@ body {
     border-top: 1px solid #ccc;
   }
 }
-#summary {
-  p { font-size: 16px; }
-}
+// #summary {
+//   p { font-size: 16px; }
+// }
 #experience {
   dl.dl-horizontal {
     div {
