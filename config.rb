@@ -21,11 +21,11 @@ images_dir 				= "images"
 javascripts_dir 	= "javascripts"
 
 project_type     	= :stand_alone
-environment      	= :development
-output_style     	= :nested
+environment      	= :production
+output_style     	= :compressed
 relative_assets  	= true
 disable_warnings 	= false
-line_comments    	= true
+line_comments    	= false
 preferred_syntax 	= :scss
 
 # You can select your preferred output style here (can be overridden via the command line):
